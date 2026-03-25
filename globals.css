@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #41431b;
+  --color-secondary: #aeb784;
+  --color-bg: #080b08;
+  --color-bg-soft: #101510;
+  --color-surface: rgba(19, 24, 19, 0.82);
+  --color-surface-strong: rgba(27, 34, 27, 0.96);
+  --color-border: rgba(174, 183, 132, 0.2);
+  --color-text: #f4f5ee;
+  --color-text-muted: #b9c2b0;
+  --color-success: #d7f785;
+  --shadow-glow: 0 0 0 1px rgba(174, 183, 132, 0.12), 0 22px 60px rgba(0, 0, 0, 0.36);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body), sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(174, 183, 132, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(65, 67, 27, 0.22), transparent 24%),
+    linear-gradient(180deg, #091009 0%, #060706 100%);
+  color: var(--color-text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(174, 183, 132, 0.3);
+  color: var(--color-text);
+}
+
+@theme inline {
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-bg: var(--color-bg);
+  --color-bg-soft: var(--color-bg-soft);
+  --color-surface: var(--color-surface);
+  --color-surface-strong: var(--color-surface-strong);
+  --color-border: var(--color-border);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-success: var(--color-success);
+}
+
+@utility container-shell {
+  margin-inline: auto;
+  width: min(100% - 1.5rem, 74rem);
+}
+
+@utility section-space {
+  padding-block: clamp(4rem, 8vw, 7rem);
+}
+
+@utility panel {
+  border: 1px solid var(--color-border);
+  background: linear-gradient(180deg, rgba(22, 28, 22, 0.95), rgba(11, 15, 11, 0.88));
+  box-shadow: var(--shadow-glow);
+  backdrop-filter: blur(18px);
+}
+
+@utility fine-grid {
+  background-image:
+    linear-gradient(rgba(174, 183, 132, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(174, 183, 132, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #f7f8f1 0%, #aeb784 55%, #dfe6c8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(174, 183, 132, 0.24);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  background: rgba(174, 183, 132, 0.08);
+}
+
+.section-kicker::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: var(--color-secondary);
+  box-shadow: 0 0 18px rgba(174, 183, 132, 0.6);
+}
+
+.heading-display {
+  font-family: var(--font-heading), cursive;
+  line-height: 0.98;
+  letter-spacing: 0.03em;
+}
+
+.eyebrow-copy {
+  color: var(--color-text-muted);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}

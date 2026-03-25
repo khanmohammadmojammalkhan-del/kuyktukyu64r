@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080B08"/>
+  <rect x="36" y="36" width="1128" height="558" rx="36" fill="url(#paint0_linear)" stroke="#AEB784" stroke-opacity="0.18"/>
+  <rect x="74" y="74" width="454" height="482" rx="30" fill="#0F140F"/>
+  <rect x="566" y="74" width="560" height="230" rx="30" fill="#111711"/>
+  <rect x="566" y="326" width="560" height="230" rx="30" fill="#111711"/>
+  <text x="108" y="176" fill="#AEB784" font-family="Arial, sans-serif" font-size="22" letter-spacing="7">FAISAL'S ZONE</text>
+  <text x="108" y="264" fill="#F5F7EE" font-family="Arial, sans-serif" font-size="72" font-weight="700">UI/UX &amp;</text>
+  <text x="108" y="340" fill="#F5F7EE" font-family="Arial, sans-serif" font-size="72" font-weight="700">Graphic</text>
+  <text x="108" y="416" fill="#F5F7EE" font-family="Arial, sans-serif" font-size="72" font-weight="700">Designer</text>
+  <text x="108" y="484" fill="#C7CFB0" font-family="Arial, sans-serif" font-size="24">Premium design systems, branding, and high-converting web experiences.</text>
+  <rect x="606" y="112" width="200" height="20" rx="10" fill="#AEB784"/>
+  <rect x="606" y="156" width="356" height="24" rx="12" fill="#F5F7EE"/>
+  <rect x="606" y="200" width="286" height="12" rx="6" fill="#F5F7EE" fill-opacity="0.16"/>
+  <rect x="606" y="364" width="158" height="18" rx="9" fill="#AEB784"/>
+  <rect x="606" y="404" width="324" height="22" rx="11" fill="#F5F7EE"/>
+  <rect x="606" y="448" width="240" height="12" rx="6" fill="#F5F7EE" fill-opacity="0.16"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="60" y1="48" x2="1120" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#131A13"/>
+      <stop offset="1" stop-color="#0A0E0A"/>
+    </linearGradient>
+  </defs>
+</svg>

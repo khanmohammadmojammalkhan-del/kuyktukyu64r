@@ -1,0 +1,24 @@
+<svg width="760" height="540" viewBox="0 0 760 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="540" fill="#091009"/>
+  <rect x="32" y="32" width="696" height="476" rx="30" fill="#101610" stroke="#AEB784" stroke-opacity="0.2"/>
+  <rect x="60" y="60" width="640" height="108" rx="24" fill="url(#paint0_linear)"/>
+  <rect x="90" y="92" width="126" height="12" rx="6" fill="#101610"/>
+  <rect x="90" y="126" width="310" height="18" rx="9" fill="#101610"/>
+  <rect x="60" y="194" width="312" height="286" rx="24" fill="#121912"/>
+  <rect x="398" y="194" width="302" height="126" rx="24" fill="#121912"/>
+  <rect x="398" y="354" width="302" height="126" rx="24" fill="#121912"/>
+  <rect x="92" y="226" width="162" height="14" rx="7" fill="#AEB784"/>
+  <rect x="92" y="262" width="222" height="18" rx="9" fill="#F5F7EE"/>
+  <rect x="92" y="298" width="180" height="10" rx="5" fill="#F5F7EE" fill-opacity="0.18"/>
+  <rect x="92" y="344" width="126" height="52" rx="16" fill="#DCE4BE"/>
+  <rect x="430" y="226" width="176" height="12" rx="6" fill="#AEB784"/>
+  <rect x="430" y="256" width="198" height="10" rx="5" fill="#F5F7EE" fill-opacity="0.18"/>
+  <rect x="430" y="386" width="176" height="12" rx="6" fill="#AEB784"/>
+  <rect x="430" y="416" width="198" height="10" rx="5" fill="#F5F7EE" fill-opacity="0.18"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="60" y1="60" x2="700" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AEB784"/>
+      <stop offset="1" stop-color="#40431A"/>
+    </linearGradient>
+  </defs>
+</svg>
